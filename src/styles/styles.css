@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  --fonte-principal: "Inter", sans-serif;
+  --cor-primaria: #f5f7f8;
+  --cor-secundaria: #f4ce14;
+  --cor-terciaria: #495e57;
+  --cor-quaternaria: #45474b;
+}
+
+body {
+  background-color: var(--cor-primaria);
+}
+
+.App-header {
+  font-family: var(--fonte-principal);
+  margin: 2rem 0;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--cor-terciaria);
+}
+
+.header__author {
+  font-family: var(--fonte-principal);
+  background-color: rgba(73, 94, 87, 0.3);
+  border-radius: 16px;
+  padding: 0.25rem 0.75rem;
+
+  text-transform: capitalize;
+
+  color: var(--cor-terciaria);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.board {
+  font-family: var(--fonte-principal);
+  display: flex;
+  justify-content: space-around;
+}
+
+.player-1 {
+  font-family: var(--fonte-principal);
+  background-color: var(--cor-terciaria);
+  color: var(--cor-primaria);
+  width: 30%;
+  padding: 1rem;
+}
+
+.player-2 {
+  font-family: var(--fonte-principal);
+  background-color: var(--cor-quaternaria);
+  color: var(--cor-primaria);
+  width: 30%;
+  padding: 1rem;
+}
+
+.game {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20%;
+}
+
+button {
+  font-family: var(--fonte-principal);
+  background-color: var(--cor-secundaria);
+  border-radius: 32px;
+  padding: 1rem;
+  border-color: var(--cor-secundaria);
+  color: var(--cor-terciaria);
+  width: 50%;
+}
+
+button:disabled {
+  background-color: grey;
+  border-color: black;
+}
+
+.die-image {
+  width: 30%;
+}
+
+.placar {
+  font-family: var(--fonte-principal);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.5rem 3rem;
+  
+  align-items: center;
+  gap: 20%;
+}
+
+.placar__rodadas {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.placar__rodadas b {
+  font-weight: 600;
+}
+
+.placar__resultado {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.placar h2 {
+  font-weight: 600;
+  color: var(--cor-terciaria);
+  font-size: 1.2rem;
+}
