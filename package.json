@@ -1,7 +1,7 @@
 {
-  "name": "glitch-blank-react",
+  "name": "dice-game-react",
   "version": "0.0.2",
-  "description": "A simple React app built with Vite and React.",
+  "description": "Jogo de Dados em React para a cadeira de Programação Front End SIn@UNICAP",
   "main": "server.js",
   "scripts": {
     "start": "vite",
@@ -21,7 +21,7 @@
     "not dead"
   ],
   "engines": {
-    "node": "14.x"
+    "node": "20.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/glitch-blank-react"
