@@ -24,7 +24,7 @@
     "node": "20.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-blank-react"
+    "url": "https://github.com/capella-marcosfilipe/dice-game-react"
   },
   "glitch": {
     "projectType": "generated_static"
